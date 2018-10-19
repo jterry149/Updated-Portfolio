@@ -162,7 +162,7 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../img/intro-bg.jpg) no-repeat center center fixed;
+	background: url(../images/intro-bg.jpg) no-repeat center center fixed;
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -264,7 +264,7 @@ hr {
 /*==================== Services Section ========================*/
 #services {
 	padding: 70px 0;
-	background: url(../img/services-bg.jpg);
+	background: url(../images/services-bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -426,7 +426,7 @@ ol.type li a:hover {
 
 /*============ Testimonials Section =================*/
 #testimonials {
-	background: url(../img/testimonials-bg.jpg);
+	background: url(../images/testimonials-bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	color: #ddd;

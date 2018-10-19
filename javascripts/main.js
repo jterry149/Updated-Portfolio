@@ -1,5 +1,5 @@
-
-function main() {
+function main() 
+{
 
 (function () {
    'use strict';
@@ -22,7 +22,8 @@ function main() {
 	});
 	
 	// Preloader */
-	  	$(window).load(function() {
+    $(window).load(function() 
+          {
 
    	// will first fade out the loading animation 
     	$("#status").fadeOut("slow"); 
@@ -72,7 +73,8 @@ function main() {
   	});
 
   	// Portfolio Isotope Filter
-    $(window).load(function() {
+    $(window).load(function() 
+    {
         var $container = $('.portfolio-items');
         $container.isotope({
             filter: '*',
@@ -82,7 +84,8 @@ function main() {
                 queue: false
             }
         });
-        $('.cat a').click(function() {
+        $('.cat a').click(function() 
+        {
             $('.cat .active').removeClass('active');
             $(this).addClass('active');
             var selector = $(this).attr('data-filter');

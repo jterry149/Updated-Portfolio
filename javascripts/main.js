@@ -62,7 +62,8 @@ function main()
         offset: 80
     })
 
-  	$(document).ready(function() {
+      $(document).ready(function() 
+      {
   	    $("#testimonial").owlCarousel({
         navigation : false, // Show next and prev buttons
         slideSpeed : 300,
@@ -101,26 +102,6 @@ function main()
         });
 
     });
-	
-	
-
-  // jQuery Parallax
-  function initParallax() {
-    $('#intro').parallax("100%", 0.3);
-    $('#services').parallax("100%", 0.3);
-    $('#aboutimg').parallax("100%", 0.3);	
-    $('#testimonials').parallax("100%", 0.1);
-
-  }
-  initParallax();
-
-  	// Pretty Photo
-	$("a[rel^='prettyPhoto']").prettyPhoto({
-		social_tools: false
-	});	
-
 }());
-
-
 }
 main();

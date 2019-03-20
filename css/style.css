@@ -36,6 +36,7 @@ h4
 }
 h5 
 {
+	color: #E75926;
 	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 20px;
@@ -427,7 +428,7 @@ ol.type li a:hover
 }
 .portfolio-item .hover-bg 
 {
-	max-height: 190px;
+	height: 250px;
 	overflow: hidden;
 	position: relative;
 }
@@ -436,9 +437,9 @@ ol.type li a:hover
 	position: absolute;
 	text-align: center;
 	margin: 0 auto;
-	color: rgba(255,255,255,0.6);
+	color: white;
 	background: rgba(0, 0, 0, 0.66);
-	padding: 25% 0;
+	padding: 10px; 
 	height: 100%;
 	width: 100%;
 	opacity: 0;
